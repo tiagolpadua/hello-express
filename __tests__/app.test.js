@@ -1,6 +1,6 @@
 const supertest = require("supertest");
 
-const app = require("../app");
+const app = require("../src/app");
 const request = supertest(app);
 
 describe("Home", () => {
